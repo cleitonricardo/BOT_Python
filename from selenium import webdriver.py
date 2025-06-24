@@ -10,7 +10,7 @@ import re
 import json
 import requests
 
-for i in range(507, 508):
+for i in range(2605, 2606):
     time.sleep(5)
     # Configuração do WebDriver
     service = Service(ChromeDriverManager().install())
