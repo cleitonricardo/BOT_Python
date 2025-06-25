@@ -13,7 +13,7 @@ import requests
 # Configurações iniciais
 URL_BASE = "https://autooleoapp.com.br/app/veiculo.html?id="
 LOGIN_URL = "https://autooleoapp.com.br/app/login.html"
-POST_URL = "https://7kkxcxqz-5000.brs.devtunnels.ms/register/veiculo"
+POST_URL = "https://reviselubapi.com.br/register/veiculo"
 EMAIL = "Limagarcia1305@gmail.com"
 SENHA = "015006"
 
@@ -101,7 +101,7 @@ def enviar_dados(dados):
 
 # Execução
 if __name__ == "__main__":
-    for i in range(2604, 2605):  # Altere o range conforme necessário
+    for i in range(1321, 4000):  # Altere o range conforme necessário
         time.sleep(5)
         driver = setup_driver()
         try:
